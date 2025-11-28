@@ -3,37 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "starts": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-
-  "name": "week3-crud-api-",
-  "version": "1.0.0",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
-562bfc95d2e798b1a0dd0257c55cdd21763c64f6
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-
-  "type": "commonjs",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "dotenv": "^17.2.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-562bfc95d2e798b1a0dd0257c55cdd21763c64f6
   }
 }
